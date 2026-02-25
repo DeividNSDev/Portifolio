@@ -49,9 +49,9 @@ Use isso para acompanhar seu progresso. Marque cada item conforme avançar nas f
 ### Fase 1 — HTML Estático (esqueleto com conteúdo)
 
 - [x] Criar `index.html` com `<!DOCTYPE html>`, `<head>` e `<body>`
-- [ ] Configurar `<head>`: charset, viewport, title e link para o CSS
-- [ ] Criar `<header>` com `<img>` (foto), `<h1>` (nome) e `<p>` (subtítulo)
-- [ ] Criar `<section id="sobre">` com parágrafos de apresentação
+- [x] Configurar `<head>`: charset, viewport, title e link para o CSS
+- [x] Criar `<header>` com `<img>` (foto), `<h1>` (nome) e `<p>` (subtítulo)
+- [x] Criar `<section id="sobre">` com parágrafos de apresentação
 - [ ] Criar `<section id="experiencias">`: 2 blocos com `<h3>`, empresa, período e descrição
 - [ ] Criar `<section id="skills">`: lista de tecnologias em `<span>`
 - [ ] Criar `<section id="projetos">`: 2 blocos com imagem, título, descrição e link `<a>`
@@ -61,11 +61,11 @@ Use isso para acompanhar seu progresso. Marque cada item conforme avançar nas f
 
 ### Fase 2 — CSS (seção por seção: adicionar classe no HTML → estilizar no CSS)
 
-- [ ] Criar `style.css` com reset (`*`) e variáveis no `:root` (cores, espaçamentos)
-- [ ] Adicionar `class="container"` nas `<div>` internas → estilizar centralização e largura máxima no `body`
-- [ ] Adicionar `class="header"` no `<header>` → estilizar com gradiente, foto circular (`.foto-perfil`) e tipografia
-- [ ] Adicionar `class` nas seções gerais → definir padding e estilizar `h2` com linha decorativa via `::after`
-- [ ] Adicionar `class="sobre"` → estilizar fundo branco e parágrafos centralizados
+- [x] Criar `style.css` com reset (`*`) e variáveis no `:root` (cores, espaçamentos)
+- [x] Adicionar `class="container"` nas `<div>` internas → estilizar centralização e largura máxima no `body`
+- [x] Adicionar `class="header"` no `<header>` → estilizar com gradiente, foto circular (`.foto-perfil`) e tipografia
+- [x] Adicionar `class` nas seções gerais → definir padding e estilizar `h2` com linha decorativa via `::after`
+- [x] Adicionar `class="sobre"` → estilizar fundo branco e parágrafos centralizados
 - [ ] Adicionar `class="card-experiencia"` e `class="badge atual/passada"` → borda lateral colorida, sombra e hover com `translateY`
 - [ ] Adicionar `class="skills"` na section e `class="skill-tag"` nos `<span>` → Flexbox com `flex-wrap` e hover com `scale`
 - [ ] Adicionar `class="card-projeto"`, `class="projeto-img"` e `class="btn"` → overflow hidden, imagem, botão estilizado com hover
