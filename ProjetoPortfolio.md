@@ -336,6 +336,8 @@ Crie um arquivo chamado `index.html` e vamos começar:
 </html>
 ```
 
+<!-- parei aq dia 08/03                             . -->
+
 ### 🤔 Perguntas para Reflexão
 
 1. **Por que colocamos o `<script>` no final do `<body>`?**
@@ -847,6 +849,9 @@ section h2::after {
   max-width: 768px = aplica apenas se a largura da tela for 768px ou menos
   (tablets e celulares)
 */
+
+/* Parei aq dia 08/03 */
+
 @media (max-width: 768px) {
   .header h1 {
     font-size: 2rem;
